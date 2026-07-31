@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:700);
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+
+/* ページ全体 */
+
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+  background-color: #eeeeee;
+  overflow: scroll;
+}
+
+
+/* ヘッダー全体 */
+
+div.headerblock {
+  width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  background-color: #0000cc;
+}
+
+
+/* タイトル */
+
+h1 {
+  margin: 0;
+  padding: 35px 20px 20px;
+  color: white;
+  font-size: 36px;
+  background-color: #0000cc;
+  font-family: 'Oswald', 'Noto Sans Japanese', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/* 学籍番号・名前 */
+
+h2 {
+  margin: 0;
+  padding: 10px 30px 20px;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color: #0000cc;
+  text-align: right;
+}
+
+
+/* ナビゲーション */
+
+nav {
+  margin: 0;
+  padding: 15px 10px;
+  background-color: #add8e6;
+  text-align: center;
+}
+
+
+/* メニューリスト */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+
+/* メニュー */
+
+li {
+  display: inline-block;
+  border-right: solid 1px black;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+}
+
+li:first-child {
+  border-left: solid 1px black;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: white;
+}
+
+
+/* 紹介カード */
+
+div.card {
+  margin: 30px auto;
+  padding: 30px;
+  border: none;
+  background-color: white;
+  width: 700px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px #999999;
+  overflow: hidden;
+}
+
+
+/* 見出し */
+
+h3 {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  font-size: 26px;
+  font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+
+/* 本文 */
+
+p {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  font-family: 'Noto Sans Japanese', sans-serif;
+  font-size: 15px;
+  line-height: 2;
+}
+
+
+/* 写真 */
+
+figure {
+  float: right;
+  margin: 0 0 15px 25px;
+  padding: 0;
+}
+
+
+/* 画像 */
+
+img {
+  width: 220px;
+  height: auto;
+  vertical-align: bottom;
+  border-radius: 8px;
+}
+
+
+/* 写真の説明 */
+
+figcaption {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 13px;
+}
+
+
+/* 画面中央に配置 */
+
+#period-1 {
+  width: 760px;
+  margin: 0 auto;
+  padding: 10px 0;
+  background-color: #eeeeee;
+}
